@@ -1,0 +1,75 @@
+version: 2.1
+orbs:
+  aws-s3: circleci/aws-s3@1.0.11
+  aws-cli: circleci/aws-cli@0.1.13
+jobs:
+  build_prod:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/ruby:2.5.6
+    steps:
+      - checkout
+      - run:
+          name: Update Bundler
+          command: gem install bundler
+      - run:
+          name: Install Ruby dependencies
+          command: bundle check || bundle install
+      - run:
+          name: Build the Jekyll site
+          command: bundle exec jekyll build
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - _site
+  deploy_prod:
+    docker:
+      - image: circleci/python:2.7-jessie
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/build
+      - aws-s3/sync:
+          from: /tmp/build/_site
+          to: 's3://resource-usermanual-dat-d-datalake/docs'
+          arguments: |
+            --delete
+  cloudFront-delete-cache-dev:
+    executor: aws-cli/default
+    steps:
+      - checkout
+      - aws-cli/install
+      - run:
+          name: CloudFront Cache Delete
+          command: |
+            aws configure set aws_access_key_id ${AWS_ACCESS_KEY_ID}
+            aws configure set aws_secret_access_key ${AWS_SECRET_ACCESS_KEY}
+            aws configure set region ${AWS_REGION}
+            aws cloudfront create-invalidation --distribution-id E2DYONP0N4X7AO --paths "/*"
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build_prod:
+          name: build
+          context: dev
+          filters:
+            branches:
+              only: master
+      - cloudFront-delete-cache-dev:
+          name: cloudFront-delete-cache-dev
+          context: dev
+          requires:
+            - build
+          filters:
+            branches:
+              only: master       
+      - deploy_prod:
+          name: deploy
+          context: dev
+          requires:
+            - cloudFront-delete-cache-dev
+          filters:
+            branches:
+              only: master
