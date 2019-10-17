@@ -14,15 +14,15 @@ nav_order: 1
 
 COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 
-![](/images/Untitled-67716ce2-3072-46dd-a8fd-cfb1d5ac364d.png)
+![](/docs/images/Untitled-67716ce2-3072-46dd-a8fd-cfb1d5ac364d.png)
 
 ### Step2. 로그인
 
 회원가입을 마친 구성원은 ID(E-mail) 및 비밀번호를 입력하여 로그인 하여 Main Page으로 진입합니다.
 
-![](/images/Untitled-10dc9344-97da-43d0-9617-f4c930d144d3.png)
+![](/docs/docs/images/Untitled-10dc9344-97da-43d0-9617-f4c930d144d3.png)
 
-![](/images/Untitled-454a3b1a-2985-48fa-bee5-c6a992296378.png)
+![](/docs/images/Untitled-454a3b1a-2985-48fa-bee5-c6a992296378.png)
 
 ## 2. 데이터 검색
 
@@ -32,7 +32,7 @@ COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 
 Data Catalog에서 원하는 산업별 영역을 선택 및 검색하여 데이터를 확인합니다.
 
-![](/images/Untitled-819f0c90-24a8-4fb1-8ec3-ee152b59840a.png)
+![](/docs/images/Untitled-819f0c90-24a8-4fb1-8ec3-ee152b59840a.png)
 
 ### Step2. 검색 데이터 결과 확인
 
@@ -42,9 +42,9 @@ Data Catalog에서 원하는 산업별 영역을 선택 및 검색하여 데이�
 
 타사 데이터를 활용하기 위해서는 공유요청 및 승인을 통해 별도의 database 주소가 제공됩니다.
 
-![](/images/Untitled-177fc700-b8fd-41a7-ba54-f3ae5357ef09.png)
+![](/docs/images/Untitled-177fc700-b8fd-41a7-ba54-f3ae5357ef09.png)
 
-![](/images/Untitled-1dab3955-31ea-4cea-8097-6a8896f1bb6e.png)
+![](/docs/images/Untitled-1dab3955-31ea-4cea-8097-6a8896f1bb6e.png)
 
 ## 3. 분석환경 사용
 
@@ -58,21 +58,21 @@ Notebook 사용을 위해 [Data Scientist]로 요청 권한을 신청합니다.
 
 본인 계정의 Jupyter Notebook Instance을 생성합니다.
 
-![](/images/Untitled-e8551ced-e477-4ba4-9d11-08254e9812cb.png)
+![](/docs/images/Untitled-e8551ced-e477-4ba4-9d11-08254e9812cb.png)
 
 Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설정합니다.
 
-![](/images/Untitled-99c2b7a7-69f9-45f6-b9b3-e936169a6218.png)
+![](/docs/images/Untitled-99c2b7a7-69f9-45f6-b9b3-e936169a6218.png)
 
 ### Step3. Notebook 실행하기
 
-![](/images/Untitled-777db72c-8e0c-445a-9431-2af8ae0c3423.png)
+![](/docs/images/Untitled-777db72c-8e0c-445a-9431-2af8ae0c3423.png)
 
 ### Step4. Notebook 중지 및 재시작 하기
 
 미사용 시, Notebook 사용을 중지하시고, 재 작업 시 시작버튼을 통해 합습을 이어서 진행합니다.
 
-![](/images/Untitled-a75a78f9-2b2e-4815-bb7c-9cf1a50dbb58.png)
+![](/docs/images/Untitled-a75a78f9-2b2e-4815-bb7c-9cf1a50dbb58.png)
 
 ## 4. 시각화 도구 사용
 
@@ -88,13 +88,13 @@ Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설
 
 산업별 특성을 가진 대표 템플릿 9종 외 44여개의 예시를 확인할 수 있습니다. 이를 참고하여 각 사의 Dashboard 구성이 가능합니다.
 
-![](/images/Untitled-e6fc8af9-8b38-4799-b74a-4197786af799.png)
+![](/docs/images/Untitled-e6fc8af9-8b38-4799-b74a-4197786af799.png)
 
 ### Step3. 리포트 조회
 
 각 사의 레포트와 관계사 공유 Report을 조회할 수 있습니다.
 
-![](/images/Untitled-470e2536-487b-48d7-8183-53201df25143.png)
+![](/docs/images/Untitled-470e2536-487b-48d7-8183-53201df25143.png)
 
 ## 5. 데이터 공유요청 및 활용
 
@@ -104,7 +104,7 @@ Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설
 
 Data Catalog에서 원하는 산업별 영역을 선택하여 데이터를 확인합니다.
 
-![](/images/Untitled-1d823b21-c2d2-4477-8c11-96611555b953.png)
+![](/docs/images/Untitled-1d823b21-c2d2-4477-8c11-96611555b953.png)
 
 ### Step2. Table 선택 후, 공유요청하기
 
