@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Coeus
-description: Coeus Documentations
+title: COEUS
+description: COEUS Documentations
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://coeus-dev.skcc.com/docs" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -35,7 +35,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Coeus Home":
+  "COEUS Home":
     - "https://coeus-dev.skcc.com/"
 
 # Footer content appears at the bottom of every page's main content
