@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Coeus
-description: A Jekyll theme for documentation
+description: Coeus Documentations
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://coeus-dev.skcc.com/docs" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -35,11 +35,11 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Coeus Portal":
+  "Coeus Home":
     - "https://coeus-dev.skcc.com/"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+footer_content: "Copyright &copy; 2019 COEUS of SK Holdings, C&C. All rights reserved."
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
