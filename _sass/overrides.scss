@@ -1,3 +1,84 @@
 //
 // Custom overrides from a user.
 //
+
+@charset "UTF-8";
+
+.side-bar{
+/*	background-color:#0e315b !important;*/
+	background-image:url('https://coeus-dev.skcc.com/img_portal/mov_poster.jpg');
+    background-position: -100px;
+}
+
+.side-bar.on2{
+	background-color:#0e315b !important;
+	background-image:none !important;
+}
+
+.site-title{
+	color:#fff !important;
+}
+
+.navigation-list-link.active{
+	color:#fff !important;
+	opacity:1 !important;
+}
+
+.navigation-list-link{
+	color:#fff !important;
+	opacity:0.5;
+}
+
+.navigation-list-child-list .navigation-list-link{
+	color:#fff !important;
+	opacity:0.3;
+}
+
+.menu-button{
+	color:#fff !important;
+}
+
+.site-footer a{
+	color:#3b84e8 !important;
+}
+
+a{
+	color:#0c53a8 !important;
+}
+
+.btn {
+    color: #fff !important;
+    background-color: #3b84e8 !important;
+    box-shadow:none !important;
+}
+
+.btn-primary{
+	background-image:none !important;
+	 background-color: #0e315b !important;
+}
+
+::selection {
+    background: #3b84e8 !important;
+}
+
+thead th {
+/*	border:none !important;*/
+	border-top: 2px solid #495057 !important;
+	border-bottom: 1px solid #e1e4e6 !important;
+/*	text-align:center !important;*/
+}
+
+tbody td {
+/*	border:none !important;*/
+	border-bottom: 1px solid #e1e4e6 !important;
+/*	text-align:center !important;*/
+}
+
+.page-content .anchor-heading svg {
+	fill: #3b84e8 !important;
+}
+
+.search-input:focus + .search-icon {
+	fill: #3b84e8 !important; 
+}
+
