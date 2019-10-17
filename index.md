@@ -25,4 +25,4 @@ Coeus는 미래의 천연자원인 Data 분석을 쉽고 빠르게 도와주고 
 
 ## 주요 서비스
 
-![4](/docs/images/Untitled-ec2cff4a-5960-4142-8d20-a4c0aea96eaa.png)
+![4](/docs/images/COEUS.jpg)
