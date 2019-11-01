@@ -38,13 +38,13 @@ Data Catalog에서 원하는 산업별 영역을 선택 및 검색하여 데이�
 
 검색한 데이터의 주제영역 확인 후, 상세페이지에서 관련된 테이블 목록을 조회합니다.
 
-(Data 주소확인을 위해 Capture 다시 하기) 및 Data Base 주소확인하기 &
+![](/docs/images/images/Untitled-7cf05a5a-a804-48ec-9276-8485d031a9ac.png)
 
 타사 데이터를 활용하기 위해서는 공유요청 및 승인을 통해 별도의 database 주소가 제공됩니다.
 
 ![](/docs/images/Untitled-177fc700-b8fd-41a7-ba54-f3ae5357ef09.png)
 
-![](/docs/images/Untitled-1dab3955-31ea-4cea-8097-6a8896f1bb6e.png)
+![](/docs/images/Untitled-2c18e559-8252-4436-a99d-64d2af70d5ff.png)
 
 ## 3. 분석환경 사용
 
@@ -111,6 +111,8 @@ Data Catalog에서 원하는 산업별 영역을 선택하여 데이터를 확�
 공유 요청은 Table 단위이며, 요청기한과 사유를 기재하여 요청합니다.
 
 요청서는 해당 관계사의 Data Steward에게 전달 됩니다.
+
+![](/docs/images/
 
 ### Step3. Data Steward 승인 완료 후, Data 저장주소 확인 후 분석 활용
 
