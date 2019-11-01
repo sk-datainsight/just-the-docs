@@ -16,7 +16,7 @@ nav_order: 1
 
 COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 
-![](/docs/images/Untitled-67716ce2-3072-46dd-a8fd-cfb1d5ac364d.png)
+![](/docs/images/Untitled-67716ce2-3072-46dd-a8fd-cfb1d5ac364d.png)  
 비고) 그룹공통인증시스템과 연동이 필요하여, serviceflow와 동일한 비밀번호 입력이 필요합니다. 
 
 ### Step2. 로그인
@@ -70,10 +70,15 @@ Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설
 
 ![](/docs/images/Untitled-99c2b7a7-69f9-45f6-b9b3-e936169a6218.png)
 
-### Step3. Notebook 실행하기
+### Step3. Notebook 실행하기 (Jupyter Lab 환경 제공)
 {: .fw-700 }
 
 ![](/docs/images/Untitled-777db72c-8e0c-445a-9431-2af8ae0c3423.png)
+
+### Step4. Jupyter Lab Example 확인 
+
+붉은색 상자 Icon 클릭 후, 예제 확인 
+![](/docs/images/Untitled-5304abe3-6740-47fc-bd45-e54089cd4dcf.jpg)
 
 ### Step4. Notebook 중지 및 재시작 하기
 {: .fw-700 }
