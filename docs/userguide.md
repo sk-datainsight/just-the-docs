@@ -76,9 +76,10 @@ Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설
 ![](/docs/images/Untitled-777db72c-8e0c-445a-9431-2af8ae0c3423.png)
 
 ### Step4. Jupyter Lab Example 확인 
+{: .fw-700 }
 
-붉은색 상자 Icon 클릭 후, 예제 확인 
-![](/docs/images/Untitled-5304abe3-6740-47fc-bd45-e54089cd4dcf.jpg)
+붉은색 상자 Icon 클릭 후, 예제 확인  
+![](/docs/images/Untitled-5304abe3-6740-47fc-bd45-e54089cd4dcf.jpg){: width="500" height="600"}
 
 ### Step5. Notebook 중지 및 재시작 하기
 {: .fw-700 }
