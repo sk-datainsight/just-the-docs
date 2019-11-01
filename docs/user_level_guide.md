@@ -5,6 +5,7 @@ nav_order: 2
 ---
 
 # 사용권한
+{: .fw-700 }
 
 ![](/docs/images/Untitled-5304abe3-6740-47fc-bd45-e54089cd4dcd.png)
 
