@@ -22,7 +22,6 @@ COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 {: .fw-700 }
 
 회원가입을 마친 구성원은 ID(E-mail) 및 비밀번호를 입력하여 로그인 하여 Main Page으로 진입합니다.
-
 ![](/docs/docs/images/Untitled-10dc9344-97da-43d0-9617-f4c930d144d3.png)
 
 ![](/docs/images/Untitled-454a3b1a-2985-48fa-bee5-c6a992296378.png)
@@ -76,6 +75,7 @@ Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설
 ![](/docs/images/Untitled-777db72c-8e0c-445a-9431-2af8ae0c3423.png)
 
 ### Step4. Notebook 중지 및 재시작 하기
+{: .fw-700 }
 
 미사용 시, Notebook 사용을 중지하시고, 재 작업 시 시작버튼을 통해 합습을 이어서 진행합니다.
 
@@ -95,7 +95,7 @@ Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설
 ### Step2. 갤러리
 {: .fw-700 }
 
-산업별 특성을 가진 대표 템플릿 9종 외 44여개의 예시를 확인할 수 있습니다. 이를 참고하여 각 사의 Dashboard 구성이 가능합니다.
+산업별 특성을 가진 대표 템플릿 9종 외 50여개의 예시를 확인할 수 있습니다. 이를 참고하여 각 사의 Dashboard 구성이 가능합니다.
 
 ![](/docs/images/Untitled-e6fc8af9-8b38-4799-b74a-4197786af799.png)
 
