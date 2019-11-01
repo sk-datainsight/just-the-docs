@@ -25,7 +25,7 @@ COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 회원가입을 마친 구성원은 ID(E-mail) 및 비밀번호를 입력하여 로그인 하여 Main Page으로 진입합니다.
 ![](/docs/docs/images/Untitled-10dc9344-97da-43d0-9617-f4c930d144d3.png){: width="100" height="50"}
 
-![](/docs/images/Untitled-454a3b1a-2985-48fa-bee5-c6a992296378.png){: width="200" height="100"}
+![](/docs/images/Untitled-454a3b1a-2985-48fa-bee5-c6a992296378.png){: width="100" height="50"}
 
 ## 2. 데이터 검색
 {: .fw-700 }
@@ -36,7 +36,7 @@ COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 
 Data Catalog에서 원하는 산업별 영역을 선택 및 검색하여 데이터를 확인합니다.
 
-![](/docs/images/Untitled-819f0c90-24a8-4fb1-8ec3-ee152b59840a.png){: width="200" height="100"}
+![](/docs/images/Untitled-819f0c90-24a8-4fb1-8ec3-ee152b59840a.png){: width="100" height="50"}
 
 ### Step2. 검색 데이터 결과 확인
 {: .fw-700 }
