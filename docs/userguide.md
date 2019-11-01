@@ -17,6 +17,7 @@ nav_order: 1
 COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 
 ![](/docs/images/Untitled-67716ce2-3072-46dd-a8fd-cfb1d5ac364d.png)
+비고) 그룹공통인증시스템과 연동이 필요하여, serviceflow와 동일한 비밀번호 입력이 필요합니다. 
 
 ### Step2. 로그인
 {: .fw-700 }
