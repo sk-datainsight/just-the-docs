@@ -16,14 +16,14 @@ nav_order: 1
 
 COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 
-![](/docs/images/Untitled-67716ce2-3072-46dd-a8fd-cfb1d5ac364d.png)  
+![](/docs/images/Untitled-67716ce2-3072-46dd-a8fd-cfb1d5ac364d.png){: width="200" height="100"}
 비고) 그룹공통인증시스템과 연동이 필요하여, serviceflow와 동일한 비밀번호 입력이 필요합니다. 
 
 ### Step2. 로그인
 {: .fw-700 }
 
 회원가입을 마친 구성원은 ID(E-mail) 및 비밀번호를 입력하여 로그인 하여 Main Page으로 진입합니다.
-![](/docs/docs/images/Untitled-10dc9344-97da-43d0-9617-f4c930d144d3.png){: width="200" height="100"}
+![](/docs/docs/images/Untitled-10dc9344-97da-43d0-9617-f4c930d144d3.png){: width="100" height="50"}
 
 ![](/docs/images/Untitled-454a3b1a-2985-48fa-bee5-c6a992296378.png){: width="200" height="100"}
 
