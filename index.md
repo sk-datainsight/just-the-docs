@@ -7,7 +7,7 @@ permalink: /
 ---
 
 # COEUS 소개
-{: .fs-8 }
+{: .fw-700 }
 
 ---
 
