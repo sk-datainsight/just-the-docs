@@ -16,7 +16,7 @@
 title: COEUS
 description: COEUS Documentations
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://coeus-dev.skcc.com/docs" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://coeus.skcc.com/docs" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -36,7 +36,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "COEUS Home":
-    - "https://coeus-dev.skcc.com/main.html"
+    - "https://coeus.skcc.com/main.html"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2019 COEUS of SK Holdings, C&C. All rights reserved."

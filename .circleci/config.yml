@@ -32,7 +32,7 @@ jobs:
           at: /tmp/build
       - aws-s3/sync:
           from: /tmp/build/_site
-          to: 's3://resource-usermanual-dat-d-datalake/docs'
+          to: 's3://resource-usermanual-dat-p-datalake/docs'
           arguments: |
             --delete
   cloudFront-delete-cache-dev:
@@ -53,13 +53,13 @@ workflows:
     jobs:
       - build_prod:
           name: build
-          context: dev
+          context: prod
           filters:
             branches:
               only: master
       - cloudFront-delete-cache-dev:
           name: cloudFront-delete-cache-dev
-          context: dev
+          context: prod
           requires:
             - build
           filters:
@@ -67,7 +67,7 @@ workflows:
               only: master       
       - deploy_prod:
           name: deploy
-          context: dev
+          context: prod
           requires:
             - cloudFront-delete-cache-dev
           filters:
