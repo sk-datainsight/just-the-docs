@@ -80,7 +80,7 @@ Notebook 환경설정을 위해 기본 셋팅 값 이외에 학습 환경을 설
 붉은색 상자 Icon 클릭 후, 예제 확인 
 ![](/docs/images/Untitled-5304abe3-6740-47fc-bd45-e54089cd4dcf.jpg)
 
-### Step4. Notebook 중지 및 재시작 하기
+### Step5. Notebook 중지 및 재시작 하기
 {: .fw-700 }
 
 미사용 시, Notebook 사용을 중지하시고, 재 작업 시 시작버튼을 통해 합습을 이어서 진행합니다.

@@ -7,25 +7,7 @@
 .side-bar{
 /*	background-color:#0e315b !important;*/
 	background-image:url('https://coeus-dev.skcc.com/img_portal/mov_poster.jpg');
-    background-position: -150px;
-}
-
-@media (min-width: 66.5rem)
-.side-bar {
-    /* width: calc((100% - 1064px) / 2 + 264px); */
-    min-width: 248px;
-}
-
-@media (min-width: 66.5rem)
-.main-content {
-    /* margin-left: calc((100% - 1064px) / 2 + 264px); */
-}
-
-@media (min-width: 50rem)
-.main-content {
-    position: relative;
-    max-width: 1000px;
-    margin-left: 248px;
+    background-position: -100px;
 }
 
 .side-bar.on2{
