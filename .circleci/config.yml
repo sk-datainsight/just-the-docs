@@ -46,7 +46,8 @@ jobs:
             aws configure set aws_access_key_id ${AWS_ACCESS_KEY_ID}
             aws configure set aws_secret_access_key ${AWS_SECRET_ACCESS_KEY}
             aws configure set region ${AWS_REGION}
-            #aws cloudfront create-invalidation --distribution-id EXCGMSUFCU8PH --paths "/*"
+            aws sts assume-role --role-arn "arn:aws:iam::583004276805:role/datalake-cloudfront-p-role" --role-session-name cloudfront-delete-cache-session
+            aws cloudfront create-invalidation --distribution-id E378R6TB0VOPAP --paths "/*"
 workflows:
   version: 2
   deploy:
