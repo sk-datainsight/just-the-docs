@@ -44,7 +44,6 @@ jobs:
           name: CloudFront Cache Delete
           command: |
             sudo apt-get install jq
-            jq --version
             chmod +x ./cloudfront_delete_cache.sh
             ./cloudfront_delete_cache.sh ${AWS_ACCESS_KEY_ID} ${AWS_SECRET_ACCESS_KEY} ${AWS_REGION}
             #aws configure set aws_access_key_id ${AWS_ACCESS_KEY_ID}
