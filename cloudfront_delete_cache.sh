@@ -12,7 +12,7 @@ echo $STS_AccessKeyId
 echo "export AWS_ACCESS_KEY_ID=${STS_AccessKeyId}" >> $BASH_ENV
 echo "export AWS_SECRET_ACCESS_KEY=${STS_SecretAccessKey}" >> $BASH_ENV
 echo "export AWS_SESSION_TOKEN=${STS_SessionToken}" >> $BASH_ENV
-source $BASH_ENV
+. $BASH_ENV
 #aws configure set aws_access_key_id ${STS_AccessKeyId}
 #aws configure set aws_secret_access_key ${STS_SecretAccessKey}
 #aws configure set region $3
