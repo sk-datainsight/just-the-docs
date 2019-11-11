@@ -9,8 +9,10 @@ STS_AccessKeyId=`echo $response | jq '.Credentials.AccessKeyId'`
 echo $STS_SecretAccessKey
 echo $STS_SessionToken
 echo $STS_AccessKeyId
-aws configure set aws_access_key_id $STS_AccessKeyId
-aws configure set aws_secret_access_key $STS_SecretAccessKey
+aws_access_key_id=$STS_AccessKeyId
+aws_secret_access_key=$STS_SecretAccessKey
+aws configure set aws_access_key_id $aws_access_key_id
+aws configure set aws_secret_access_key $aws_secret_access_key
 aws configure set region $3
 aws configure set aws_session_token $STS_SessionToken
 aws configure list
