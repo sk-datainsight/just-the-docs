@@ -18,6 +18,4 @@ echo "export AWS_SESSION_TOKEN=${STS_SessionToken}" >> $BASH_ENV
 #aws configure set region $3
 #aws configure set aws_session_token ${STS_SessionToken}
 #aws configure list
-cat ~/.aws/credentials
-aws s3 ls
-#aws cloudfront create-invalidation --distribution-id E378R6TB0VOPAP --paths "/*"
+aws cloudfront create-invalidation --distribution-id E378R6TB0VOPAP --paths "/*"
