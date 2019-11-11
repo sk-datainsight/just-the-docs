@@ -9,12 +9,11 @@ STS_AccessKeyId=`echo $response | jq '.Credentials.AccessKeyId' | xargs`
 echo $STS_SecretAccessKey
 echo $STS_SessionToken
 echo $STS_AccessKeyId
-aws configure set aws_access_key_id ${STS_AccessKeyId} --profile STS_USER
-aws configure set aws_secret_access_key ${STS_SecretAccessKey} --profile STS_USER
-aws configure set region $3 --profile STS_USER
-aws configure set aws_session_token ${STS_SessionToken} --profile STS_USER
+aws configure set aws_access_key_id ${STS_AccessKeyId}
+aws configure set aws_secret_access_key ${STS_SecretAccessKey}
+aws configure set region $3
+aws configure set aws_session_token ${STS_SessionToken}
 aws configure list
 cat ~/.aws/credentials
-export AWS_PROFILE=STS_USER
 aws s3 ls
 #aws cloudfront create-invalidation --distribution-id E378R6TB0VOPAP --paths "/*"
