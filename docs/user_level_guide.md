@@ -14,5 +14,5 @@ nav_order: 2
 
 ![](/docs/images/Untitled-5304abe3-6740-47fc-bd45-e54089cd4dce.jpg)
 ---
-* (C)는 Tableau의 Creator 권한/라이센스를 추가로 부여받는 권한을 의미합니다.  
+* (C)는 Tableau의 Creator 권한/라이센스를 추가로 부여받은 권한을 의미합니다.  
 * (C)가 없는 Data Analyst, Data Scientist는 Tableau View 권한을 갖는 부분을 의미합니다.  
