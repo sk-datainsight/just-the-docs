@@ -6,9 +6,6 @@ response=`aws sts assume-role --role-arn "arn:aws:iam::583004276805:role/datalak
 STS_SecretAccessKey=`echo $response | jq '.Credentials.SecretAccessKey' | xargs`
 STS_SessionToken=`echo $response | jq '.Credentials.SessionToken' | xargs`
 STS_AccessKeyId=`echo $response | jq '.Credentials.AccessKeyId' | xargs`
-echo $STS_SecretAccessKey
-echo $STS_SessionToken
-echo $STS_AccessKeyId
 echo "export AWS_ACCESS_KEY_ID=${STS_AccessKeyId}" >> $BASH_ENV
 echo "export AWS_SECRET_ACCESS_KEY=${STS_SecretAccessKey}" >> $BASH_ENV
 echo "export AWS_SESSION_TOKEN=${STS_SessionToken}" >> $BASH_ENV
