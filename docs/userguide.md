@@ -20,9 +20,18 @@ COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 
 비고) 그룹공통인증시스템과 연동이 필요하여, serviceflow와 동일한 비밀번호 입력이 필요합니다.  
 
-URL)  http://serviceflow.sk.com/common/login_sso
+### Step2. 비밀번호 찾기 
 
-### Step2. 로그인  
+service-flow 비밀번호를 재설정 하기 위해 사용자 등록 상단의 비밀번호 찾기 버튼을 클릭합니다.  
+E-mail로 인증번호 발송 및 인증 완료 후, 비밀번호 재 설정이 가능합니다.
+
+![](/docs/images/find-pass-word.jpg){: width="400" height="300"}
+
+회사 메일로 발송된 인증번호 입력 후, 비밀번호를 재설정 합니다.  
+![](/docs/images/modify-pass-word.jpg){: width="400" height="300"}
+
+
+### Step3. 로그인  
 {: .fw-700 }
 
 회원가입을 마친 구성원은 ID(E-mail) 및 비밀번호를 입력하여 로그인 하여 Main Page으로 진입합니다.  
