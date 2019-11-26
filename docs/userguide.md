@@ -23,7 +23,7 @@ COEUS 사용을 위해 SK그룹 구성원 인증을 수행합니다.
 {: .fw-700 }
 
 회원가입을 마친 구성원은 ID(E-mail) 및 비밀번호를 입력하여 로그인 하여 Main Page으로 진입합니다.
-![](/docs/docs/images/sign-in-process.jpg){: width="400" height="300"} 
+![](/docs/images/sign-in-process.jpg){: width="400" height="300"} 
 
 ![](/docs/images/Untitled-454a3b1a-2985-48fa-bee5-c6a992296378.png){: width="400" height="300"} 
 
