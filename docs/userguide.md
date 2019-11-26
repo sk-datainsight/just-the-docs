@@ -59,7 +59,7 @@ Data Catalog에서 원하는 산업별 영역을 선택 및 검색하여 데이�
 타사 데이터를 활용하기 위해서는 공유요청 및 승인을 통해 별도의 database 주소가 제공됩니다.
 
 ![](/docs/images/Untitled-2c18e559-8252-4436-a99d-64d2af70d5ff.png){: width="400" height="300"}
-
+ 
 ## 3. 분석환경 사용
 {: .fw-700 }
 
